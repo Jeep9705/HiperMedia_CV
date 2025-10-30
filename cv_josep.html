@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Currículum de Josep Felipe Palahí" />
+  <title>CV — Josep Felipe Palahí</title>
+  <link rel="stylesheet" href="cv.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#inicio">Josep Felipe Palahí</a>
+      <div class="links">
+        <a href="#sobre">Sobre mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#formacion">Formación</a>
+        <a href="#idiomas">Idiomas</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio" class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Josep Felipe Palahí</h1>
+      <p class="subtitle">Estudiante de Ingeniería Informática — UdG (2º)</p>
+      <div class="actions">
+        <a class="btn" href="mailto:josepfelipepalahi@gmail.com">Contactar</a>
+        <a class="btn btn-ghost" href="#" aria-disabled="true">Descargar PDF</a>
+      </div>
+    </section>
+
+    <!-- INFO RÁPIDA -->
+    <section class="quick">
+      <div class="icontext">📍 Girona</div>
+      <div class="icontext"><a href="mailto:josepfelipepalahi@gmail.com">josepfelipepalahi@gmail.com</a></div>
+      <div class="icontext">📱 722 228 431</div>
+      <div class="icontext">☎️ 972 213 457</div>
+      <div class="icontext"> 09/07/2005</div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia" class="section">
+      <h2>Experiencia profesional</h2>
+
+      <article class="card">
+        <header class="card-head">
+          <h3>Manipulador textil — LOGISFASHION</h3>
+          <p class="meta">ETT SYNERGIE · 160 h</p>
+        </header>
+        <ul class="bullets">
+          <li>Desalarmador.</li>
+          <li>Operario de etiquetado.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <header class="card-head">
+          <h3>Jardinero auxiliar — fines de semana</h3>
+          <p class="meta">Desde 2022 hasta la actualidad</p>
+        </header>
+        <ul class="bullets">
+          <li>Plantación y trasplante de plantas ornamentales y arbustivas.</li>
+          <li>Poda de árboles y arbustos según temporada y especie.</li>
+          <li>Riego manual y automatizado.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- FORMACIÓN -->
+    <section id="formacion" class="section">
+      <h2>Formación académica</h2>
+      <ul class="list">
+        <li><strong>Ingeniería Informática</strong> — Universitat de Girona (UdG). <span class="meta">Curso actual: 2º</span></li>
+        <li><strong>Bachillerato tecnológico</strong> — Institut Narcís Xifra i Masmitjà. <span class="meta">2023</span></li>
+        <li><strong>Grado Profesional de Violín</strong> — Conservatorio de Música Isaac Albéniz. <span class="meta">Curso actual: 6º</span></li>
+      </ul>
+    </section>
+
+    <!-- IDIOMAS -->
+    <section id="idiomas" class="section">
+      <h2>Idiomas</h2>
+      <ul class="chips">
+        <li class="chip">Catalán C1 · materna</li>
+        <li class="chip">Castellano C1</li>
+        <li class="chip">Inglés B1</li>
+      </ul>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre" class="section">
+      <h2>Sobre mí</h2>
+      <p>
+        Con muchas ganas de trabajar y aprender para conseguir experiencia laboral.
+        Me considero una persona trabajadora y muy alegre, con mucha vida social.
+      </p>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <h2>Contacto</h2>
+      <p>
+        Si te interesa mi perfil, puedes escribirme a
+        <a href="mailto:josepfelipepalahi@gmail.com">josepfelipepalahi@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container small">© <span id="y"></span> Josep Felipe Palahí</div>
+  </footer>
+
+  <script>
+    // año automático en el footer
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
